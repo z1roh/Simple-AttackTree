@@ -329,7 +329,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 11",
+                      "text": "Autenticación",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -338,12 +338,13 @@
               ],
               "z": 12,
               "hasOpenThreats": false,
+              "outOfScope": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasNoOpenThreats isOutOfScope"
                 }
               }
             },
@@ -2806,19 +2807,9 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "High",
-                  "title": "Encontrada un CVE en el Servidor",
-                  "type": "Elevation of privilege",
-                  "description": "Se ha encontrado una vulnerabilidad referente a Apache",
-                  "mitigation": "Actualizar la versión del servidor"
-                },
-                {
-                  "status": "Open",
                   "severity": "Medium",
-                  "title": "httpoxy",
-                  "type": "Information disclosure",
-                  "description": "Produce acceso a los sistemas de la organización",
-                  "mitigation": "actualizar los proxys y cambiarlos"
+                  "title": "Encontrada un CVE en el Servidor",
+                  "type": "Elevation of privilege"
                 }
               ],
               "storesCredentials": false,
@@ -2851,7 +2842,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 95",
+                      "text": "Control",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2885,7 +2876,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2919,7 +2910,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -3324,6 +3315,50 @@
               ],
               "id": "6d5f2490-d92c-423d-b689-fcbcb58661db",
               "z": 118,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 25,
+                "y": 1310
+              },
+              "target": {
+                "x": 195,
+                "y": 1273
+              },
+              "vertices": [],
+              "id": "9304f9c8-ac9f-4f3d-95cc-7d944d9bc97f",
+              "z": 119,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "id": "aabc7268-d98c-4095-981b-478635aeb05d"
+              },
+              "target": {
+                "id": "5aa28020-2f18-4dc6-920d-3b6a5ad35c6a"
+              },
+              "vertices": [],
+              "id": "d196b1fc-368d-4ffc-b1a9-d86848fd0493",
+              "z": 120,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "id": "15e1cdc9-7b51-4f6d-81be-b0cc8b9d42af"
+              },
+              "target": {
+                "id": "aabc7268-d98c-4095-981b-478635aeb05d"
+              },
+              "vertices": [],
+              "id": "00bfb847-9478-4438-bdd0-274e4ee1b2da",
+              "z": 121,
               "attrs": {}
             }
           ]
