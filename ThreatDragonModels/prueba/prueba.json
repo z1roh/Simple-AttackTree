@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "prueba",
+    "owner": "test",
+    "description": "esto es el primer test que se va a genrar para pratcticar esta herramienta"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "prueba",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "test de amenaza"
+  }
+}
