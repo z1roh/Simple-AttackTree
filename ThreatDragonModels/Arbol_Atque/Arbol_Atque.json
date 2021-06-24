@@ -2421,7 +2421,7 @@
                 "id": "931cc78c-7631-4305-b6a8-975055eff8ab"
               },
               "target": {
-                "id": "32bfcb75-d339-43f4-ad3b-90e80971e02e"
+                "id": "290884c3-110c-4570-933b-31559fa5b8da"
               },
               "vertices": [],
               "id": "008dd69a-0b84-4a0d-8dc5-b7d3429d65b3",
@@ -2455,7 +2455,7 @@
                 "id": "d812e64b-dccf-477c-affb-e7706f7c1602"
               },
               "target": {
-                "id": "32bfcb75-d339-43f4-ad3b-90e80971e02e"
+                "id": "290884c3-110c-4570-933b-31559fa5b8da"
               },
               "vertices": [],
               "id": "0825959c-be66-44d1-8b76-1c25b2ef1d7e",
@@ -2489,7 +2489,7 @@
                 "id": "eb4209bb-1b4a-4c14-843e-1e11aa2ad0d7"
               },
               "target": {
-                "id": "32bfcb75-d339-43f4-ad3b-90e80971e02e"
+                "id": "290884c3-110c-4570-933b-31559fa5b8da"
               },
               "vertices": [],
               "id": "9908d0a8-8104-430d-b33a-066f7eb40060",
@@ -3231,12 +3231,12 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 2343,
-                "y": 714
+                "x": 2452,
+                "y": 749
               },
               "target": {
-                "x": 2418,
-                "y": 732
+                "x": 2544,
+                "y": 730
               },
               "vertices": [],
               "id": "2594664e-d62c-43f4-9516-09809e1187d2",
@@ -3360,6 +3360,66 @@
               "id": "00bfb847-9478-4438-bdd0-274e4ee1b2da",
               "z": 121,
               "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 2284,
+                "y": 572
+              },
+              "angle": 0,
+              "id": "290884c3-110c-4570-933b-31559fa5b8da",
+              "z": 122,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Encontrar Error en el\nSistema"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "290884c3-110c-4570-933b-31559fa5b8da"
+              },
+              "target": {
+                "id": "32bfcb75-d339-43f4-ad3b-90e80971e02e"
+              },
+              "vertices": [],
+              "id": "f477fbe4-6c98-4817-8385-a55cbc4cfb10",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 118",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 123,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
