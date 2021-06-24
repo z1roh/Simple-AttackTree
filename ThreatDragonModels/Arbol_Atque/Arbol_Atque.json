@@ -2718,8 +2718,8 @@
                 "height": 80
               },
               "position": {
-                "x": 2798,
-                "y": 906
+                "x": 2694,
+                "y": 778
               },
               "angle": 0,
               "id": "d3cdac1e-3a29-420c-9b7d-faaae354820e",
@@ -2744,34 +2744,8 @@
                 "height": 80
               },
               "position": {
-                "x": 2690,
-                "y": 578
-              },
-              "angle": 0,
-              "id": "6c96649a-8bb9-4a68-8b4a-236d4fdd0d98",
-              "z": 93,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Instalar Payload"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 2549,
-                "y": 254
+                "x": 2664,
+                "y": 156
               },
               "angle": 0,
               "id": "edf4ebf7-bde2-4867-b2b4-87de688e077c",
@@ -2822,8 +2796,8 @@
                 "height": 80
               },
               "position": {
-                "x": 2705,
-                "y": 1230
+                "x": 2802,
+                "y": 1052
               },
               "angle": 0,
               "id": "4c00486d-814c-422f-9e2d-0c3039befd02",
@@ -2847,6 +2821,8 @@
                   "mitigation": "actualizar los proxys y cambiarlos"
                 }
               ],
+              "storesCredentials": false,
+              "isALog": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
@@ -2909,7 +2885,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 96",
+                      "text": "flow",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2943,7 +2919,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 97",
+                      "text": "flow",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2951,74 +2927,6 @@
                 }
               ],
               "z": 99,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "6c96649a-8bb9-4a68-8b4a-236d4fdd0d98"
-              },
-              "target": {
-                "id": "edf4ebf7-bde2-4867-b2b4-87de688e077c"
-              },
-              "vertices": [],
-              "id": "febe9127-08ae-4c25-b3da-1610152fbdcd",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 98",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 100,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "d3cdac1e-3a29-420c-9b7d-faaae354820e"
-              },
-              "target": {
-                "id": "6c96649a-8bb9-4a68-8b4a-236d4fdd0d98"
-              },
-              "vertices": [],
-              "id": "bf56c13d-89bf-46f4-ac1f-e2bad4b0a6b1",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 99",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 101,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -3087,6 +2995,100 @@
                 }
               ],
               "z": 103,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "56e31a16-d9f3-4519-939f-4cd32755c04b"
+              },
+              "target": {
+                "id": "edf4ebf7-bde2-4867-b2b4-87de688e077c"
+              },
+              "vertices": [],
+              "id": "ecbef25a-2988-4121-afde-821181b86f17",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Ejecutar Payload",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 104,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 2636,
+                "y": 452
+              },
+              "angle": 0,
+              "id": "56e31a16-d9f3-4519-939f-4cd32755c04b",
+              "z": 105,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Acceder a la\nOrganización"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d3cdac1e-3a29-420c-9b7d-faaae354820e"
+              },
+              "target": {
+                "id": "56e31a16-d9f3-4519-939f-4cd32755c04b"
+              },
+              "vertices": [],
+              "id": "5947dec0-e9d1-4817-acd8-c5de0e78ecc0",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Empleado recoge\nUSB",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 106,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
