@@ -3374,16 +3374,26 @@
               "angle": 0,
               "id": "290884c3-110c-4570-933b-31559fa5b8da",
               "z": 122,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "title": "Acceso al sistema",
+                  "description": "Tras varios intentos nos regresa tablas de datos y se obtiene accesos a datos de los sistemas por falla de configuración.",
+                  "mitigation": "Configurar restricciones y elaborar plan de contención de errores."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Encontrar Error en el\nSistema"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
