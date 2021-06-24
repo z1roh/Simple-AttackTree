@@ -3098,6 +3098,191 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1126,
+                "y": 341
+              },
+              "target": {
+                "x": 1372,
+                "y": 242
+              },
+              "vertices": [
+                {
+                  "x": 1316,
+                  "y": 332
+                }
+              ],
+              "id": "fa835b01-189b-414d-aa96-b672db1a4466",
+              "z": 107,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 913,
+                "y": 273
+              },
+              "target": {
+                "x": 930,
+                "y": 340
+              },
+              "vertices": [
+                {
+                  "x": 850,
+                  "y": 316
+                }
+              ],
+              "id": "784c3f05-c070-4a94-9577-5d91a581d577",
+              "z": 108,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1035,
+                "y": 654
+              },
+              "target": {
+                "x": 1357,
+                "y": 650
+              },
+              "vertices": [
+                {
+                  "x": 1203,
+                  "y": 712
+                }
+              ],
+              "id": "ee025a31-e5a3-47ca-ac5b-d4bd66aae4a6",
+              "z": 109,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1080,
+                "y": 1475
+              },
+              "target": {
+                "x": 1285,
+                "y": 1466
+              },
+              "vertices": [],
+              "id": "9a44410a-d5a3-48ca-85f0-e3db73cfc1ff",
+              "z": 110,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1441,
+                "y": 914
+              },
+              "target": {
+                "x": 1564,
+                "y": 892
+              },
+              "vertices": [],
+              "id": "1ff60f17-02fd-43c9-8fff-15506f8b05bd",
+              "z": 111,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1916,
+                "y": 442
+              },
+              "target": {
+                "x": 2034,
+                "y": 338
+              },
+              "vertices": [
+                {
+                  "x": 2010,
+                  "y": 424
+                }
+              ],
+              "id": "8f3fff2a-fb9a-48ba-924b-6d07bba3cc3c",
+              "z": 112,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 2607,
+                "y": 429
+              },
+              "target": {
+                "x": 2841,
+                "y": 413
+              },
+              "vertices": [
+                {
+                  "x": 2722,
+                  "y": 396
+                }
+              ],
+              "id": "f757b2d8-5956-4a93-8aa0-47026bdae352",
+              "z": 113,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 2343,
+                "y": 714
+              },
+              "target": {
+                "x": 2418,
+                "y": 732
+              },
+              "vertices": [],
+              "id": "2594664e-d62c-43f4-9516-09809e1187d2",
+              "z": 114,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1632,
+                "y": 249
+              },
+              "target": {
+                "x": 1683,
+                "y": 378
+              },
+              "vertices": [],
+              "id": "803fb896-e4b5-47e9-bb21-0a0618a67f87",
+              "z": 115,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 2704,
+                "y": 691
+              },
+              "target": {
+                "x": 2823,
+                "y": 718
+              },
+              "vertices": [],
+              "id": "17682688-ad47-44c3-bfef-695e33555182",
+              "z": 116,
+              "attrs": {}
             }
           ]
         },
