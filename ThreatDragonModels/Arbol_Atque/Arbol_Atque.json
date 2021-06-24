@@ -1277,7 +1277,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 42",
+                      "text": "Preparar Payload",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1311,7 +1311,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 43",
+                      "text": "Actuar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1345,7 +1345,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 44",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1379,7 +1379,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 45",
+                      "text": "Actuar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1413,7 +1413,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 46",
+                      "text": "Preparar Payload",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1447,7 +1447,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 47",
+                      "text": "Investigar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1481,7 +1481,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 48",
+                      "text": "Investigar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1506,8 +1506,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1097,
-                "y": 1500
+                "x": 1124,
+                "y": 1498
               },
               "angle": 0,
               "id": "65c96080-75cf-43c9-803c-3b7f4c391f88",
@@ -1541,7 +1541,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 50",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1653,7 +1653,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 54",
+                      "text": "Ingeniería Social",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1687,7 +1687,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 55",
+                      "text": "Ingeniería Social",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1721,7 +1721,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 56",
+                      "text": "Ingeniería Social",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1755,7 +1755,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 58",
+                      "text": "Actuar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
