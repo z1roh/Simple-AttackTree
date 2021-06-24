@@ -2005,7 +2005,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 66",
+                      "text": "Cargar Payload",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2039,7 +2039,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 67",
+                      "text": "Preparar Payload",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2073,7 +2073,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 68",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2107,7 +2107,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 69",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2141,7 +2141,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 70",
+                      "text": "Ingeniería Social",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2175,7 +2175,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 71",
+                      "text": "Elaborar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2235,7 +2235,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 73",
+                      "text": "Actuar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2451,7 +2451,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 81",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2485,7 +2485,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 82",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2519,7 +2519,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 83",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2553,7 +2553,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 84",
+                      "text": "Actuar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2587,7 +2587,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 85",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2621,7 +2621,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 86",
+                      "text": "Crear Servicios",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2655,7 +2655,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 87",
+                      "text": "Investigar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2689,7 +2689,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 88",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -3330,8 +3330,8 @@
               },
               "vertices": [
                 {
-                  "x": 2371,
-                  "y": 1440
+                  "x": 2431,
+                  "y": 1444
                 }
               ],
               "id": "6d5f2490-d92c-423d-b689-fcbcb58661db",
@@ -3434,7 +3434,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 118",
+                      "text": "Recopilar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
