@@ -3283,6 +3283,48 @@
               "id": "17682688-ad47-44c3-bfef-695e33555182",
               "z": 116,
               "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1908,
+                "y": 1282
+              },
+              "target": {
+                "x": 2134,
+                "y": 1296
+              },
+              "vertices": [
+                {
+                  "x": 1998,
+                  "y": 1249
+                }
+              ],
+              "id": "f97c22b8-1a8c-4027-a272-d122fc5793dd",
+              "z": 117,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 2238,
+                "y": 1448
+              },
+              "target": {
+                "x": 2504,
+                "y": 1511
+              },
+              "vertices": [
+                {
+                  "x": 2371,
+                  "y": 1440
+                }
+              ],
+              "id": "6d5f2490-d92c-423d-b689-fcbcb58661db",
+              "z": 118,
+              "attrs": {}
             }
           ]
         },
