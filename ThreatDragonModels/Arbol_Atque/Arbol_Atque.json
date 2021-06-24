@@ -1110,16 +1110,26 @@
               "angle": 0,
               "id": "0dc66bf7-8d8e-4706-92cd-a1fc7b04faeb",
               "z": 37,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Personal Acceso",
+                  "description": "Personal de Servicios Sociales de la organización permite acceso a las instalaciones son comprobaciones de identidad o símil.",
+                  "mitigation": "Concienciar al personal de Gestionar el Acceso a las instalaciones."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Falso Cliente Importante"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1136,16 +1146,26 @@
               "angle": 0,
               "id": "70fc94f4-01da-4791-b1af-5455b3809664",
               "z": 38,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Avería",
+                  "type": "Spoofing",
+                  "description": "Se ha identificado mal funcionamiento de un sistema de telecomunicación y una persona haciéndose pasar por técnico ha accedido e instalado un payload.",
+                  "mitigation": "Prevenir fallas físicas en los sistemas, generar un plan de contención antes este tipo de incidentes."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Generar Falsa Avería"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
