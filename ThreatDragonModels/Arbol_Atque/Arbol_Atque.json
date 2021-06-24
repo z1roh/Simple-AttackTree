@@ -136,16 +136,26 @@
               "angle": 0,
               "id": "65361d3f-1940-4b54-8eda-fcb2f2a686cb",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Información clasificada",
+                  "description": "Mediante una falsa identificación se ha conseguido tener acceso a los sistemas cenrales.",
+                  "mitigation": "Denegar accesos a todos, desconfiar. Informar a las unidades respectivas para que tomen las medidas necesarias."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Engañar a la Corporación"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -387,16 +397,26 @@
               "angle": 0,
               "id": "8284cae8-293a-410e-990f-916003ad3a65",
               "z": 14,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Acceso",
+                  "description": "A través de un Phising se ha llevado a cabo una suplantación y convencimiento de permitir que el administrador del sistema realice ciertas tareas.",
+                  "mitigation": "Concienciar a los administradores y alertar al resto de la estructura de las posibles consecuencias."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Phising"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -442,7 +462,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 15",
+                      "text": "Phising Personalizado",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -451,6 +471,7 @@
               ],
               "z": 16,
               "hasOpenThreats": false,
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -476,7 +497,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 16",
+                      "text": "Elaborar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -510,7 +531,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 17",
+                      "text": "Confirmar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -570,7 +591,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 19",
+                      "text": "Perfilar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -604,7 +625,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 20",
+                      "text": "Investigar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -664,7 +685,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 22",
+                      "text": "Ingeniería Social",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -698,7 +719,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 23",
+                      "text": "Ingeniería Social",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -749,8 +770,8 @@
                 "height": 80
               },
               "position": {
-                "x": 563,
-                "y": 946
+                "x": 536,
+                "y": 931
               },
               "angle": 0,
               "id": "ae94ef84-ecc1-4a5b-b006-698e117a314a",
@@ -810,7 +831,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 27",
+                      "text": "Actuar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -844,7 +865,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 28",
+                      "text": "Estudiar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -878,7 +899,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 29",
+                      "text": "Personificar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -912,7 +933,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 30",
+                      "text": "Obtener",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -946,7 +967,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 31",
+                      "text": "Investigar",
                       "font-weight": "400",
                       "font-size": "small"
                     }
