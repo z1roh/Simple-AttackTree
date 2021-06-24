@@ -244,8 +244,8 @@
                 "height": 80
               },
               "position": {
-                "x": 756,
-                "y": 1344
+                "x": 752,
+                "y": 1442
               },
               "angle": 0,
               "id": "30579b3f-aaa2-4056-88a8-20ed8d49cd05",
@@ -796,8 +796,8 @@
                 "height": 80
               },
               "position": {
-                "x": 677,
-                "y": 1121
+                "x": 681,
+                "y": 1285
               },
               "angle": 0,
               "id": "2dc7b9fb-dd05-410b-9b1c-4e5ad33a83aa",
@@ -890,7 +890,7 @@
                 "id": "2dc7b9fb-dd05-410b-9b1c-4e5ad33a83aa"
               },
               "target": {
-                "id": "ae94ef84-ecc1-4a5b-b006-698e117a314a"
+                "id": "c32e729f-77dd-4898-84aa-837d96824c1f"
               },
               "vertices": [],
               "id": "8e881eea-08df-4746-939b-bb03b9fa2c71",
@@ -3442,6 +3442,66 @@
                 }
               ],
               "z": 123,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 652,
+                "y": 1108
+              },
+              "angle": 0,
+              "id": "c32e729f-77dd-4898-84aa-837d96824c1f",
+              "z": 124,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Ataque del CEO"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c32e729f-77dd-4898-84aa-837d96824c1f"
+              },
+              "target": {
+                "id": "ae94ef84-ecc1-4a5b-b006-698e117a314a"
+              },
+              "vertices": [],
+              "id": "708455f7-e754-4e82-a0aa-01800b02c9be",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Actuar",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 125,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
