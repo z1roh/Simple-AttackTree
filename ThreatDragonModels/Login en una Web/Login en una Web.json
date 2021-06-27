@@ -100,7 +100,7 @@
                 "height": 80
               },
               "position": {
-                "x": 877,
+                "x": 895,
                 "y": 193
               },
               "angle": 0,
@@ -257,40 +257,6 @@
               }
             },
             {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "1d842035-99e8-4d4a-a4fa-0a6b81fe9326"
-              },
-              "target": {
-                "id": "65258976-b104-4583-91ea-77ea31f8b533"
-              },
-              "vertices": [],
-              "id": "9ba99b55-a3c9-475d-863b-9a5357d87394",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "Hacer Login",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
@@ -331,6 +297,40 @@
               "id": "8e4e6705-a969-4e82-8d24-c79a9f1e372e",
               "z": 11,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1d842035-99e8-4d4a-a4fa-0a6b81fe9326"
+              },
+              "target": {
+                "id": "65258976-b104-4583-91ea-77ea31f8b533"
+              },
+              "vertices": [],
+              "id": "b5b20ee5-dcbc-4b17-932c-3f7aad471337",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Conceder Permiso",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
