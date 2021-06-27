@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "Obtener acceso a una Web",
+    "owner": "Propietario",
+    "description": "Se genera un árbol de ataque sencillo para obtener la contraseña del portal web de un cliente."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Acceso Web",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
