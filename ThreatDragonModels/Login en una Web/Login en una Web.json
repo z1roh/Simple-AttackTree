@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "Login en una Web",
+    "owner": "Propietario",
+    "description": "Se elaborará un modelado de amenazas sencillo correspondiente a realizar login en una Web."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Login en una Web",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
