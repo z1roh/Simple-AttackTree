@@ -26,16 +26,26 @@
               "angle": 0,
               "id": "0bf2d07d-7998-4a57-9806-e449c4b14031",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "title": "Suplantar",
+                  "description": "Han suplantado el router del cliente y todo el tráfico esta pasando por un intermediario.",
+                  "mitigation": "Desconectarse de la red, cambiar todas sus credenciales y revisar su servicio de ISP."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Router"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -100,26 +110,36 @@
                 "height": 80
               },
               "position": {
-                "x": 895,
-                "y": 193
+                "x": 896,
+                "y": 192
               },
               "angle": 0,
               "id": "65258976-b104-4583-91ea-77ea31f8b533",
               "z": 4,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": true,
               "storesCredentials": true,
               "isEncrypted": true,
               "isSigned": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Denegación de Servicio",
+                  "description": "Se ha conseguido revisar las tablas de la base de datos referente a los clientes mediante la técnica de SQL Injection.",
+                  "mitigation": "Restaurar tablas, migrar los procesos y servicios a otra base de datos y corromper la actual. Por último, informar a los afectados sobre lo que ha pasado."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Base de Datos"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -136,16 +156,26 @@
               "angle": 0,
               "id": "b4d89bd5-34cb-4395-8207-e59a79532616",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "title": "Persona no autorizada",
+                  "description": "Una persona que no es la dueña de la cuenta se ha conectado a la cuentas del administrador y ha visto credenciales y documentación privada.",
+                  "mitigation": "Eliminar la cuentas de Administrador y todas las comunes a ella y crear una nueva."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Cliente"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
