@@ -12,6 +12,7 @@
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0
       }
-    ]
+    ],
+    "reviewer": "Acceso a portal web de cliente"
   }
 }
