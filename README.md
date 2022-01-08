@@ -1,5 +1,4 @@
-#CTEC - Curso Técnico Especialista en Ciberinteligencia
-# Arbol de Ataque
+# ÁRBOL DE ATAQUE
 
 <h2>Resumen</h2> 
 
@@ -17,7 +16,9 @@ Corporación, S.A., una lista de 5 posibles vulnerabilidades por las que
 se podría realizar un ataque APT y afectar la confidencialidad, integridad y
 disponibilidad de los servicios del grupo.
 </p>
-IMAGEN1
+
+<img src='3.png' alt='Vulnerabilidades Encontradas'>
+
 <p>
 La búsqueda de las respectivas vulnerabilidades es un proceso complejo,
 pero necesario para evaluar el nivel de seguridad de un sistema.
@@ -29,22 +30,25 @@ ZoomEye, respectivamente con un nivel muy grave de riesgo de seguridad.
 
 <p>
 El respectivo reporte y en cuestión el árbol de ataque se encuentra disponibles y
-gestionado para su posterior eliminación de las fuentes públicas, se ha elaborado
+gestionado para su posterior eliminación de las fuentes públicas, y se ha elaborado
 con Threat Dragon.
 </p>
-IMAGEN2
+
+<img src='1.png' alt='Theat Dragon'>
+
 <p>
 El reporte realizado para este informe, a modo de visualizar las posibles brechas
 de seguridad existentes y los vectores de ataques que un ciberdelincuente llevaría
 a cabo, es similar al diagrama elaborado.
 </p>
-IMAGEN3
 <p>
-por tanto esté mismo se encuentra disponible en un formato JSON, donde se puede
+Por tanto esté mismo se encuentra disponible en un formato JSON, donde se puede
 visualizar el árbol de ataque con mayor detenimiento.
 Siendo representado en base a la información recopilada, donde el
 objetivo es corromper el servidor central del grupo.
 </p>
+
+<img src='2.png' alt='Tree Attack'>
 
 <h3>Observaciones</h3>
 
