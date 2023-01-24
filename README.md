@@ -17,7 +17,7 @@ se podría realizar un ataque APT y afectar la confidencialidad, integridad y
 disponibilidad de los servicios del grupo.
 </p>
 
-<img src='3.png' alt='Vulnerabilidades Encontradas'>
+![Vulnerabilidades-Encontradas](https://user-images.githubusercontent.com/72032027/214213535-7ef30f94-2e25-4e6e-bd94-ac01f02ff58d.png)
 
 <p>
 La búsqueda de las respectivas vulnerabilidades es un proceso complejo,
@@ -34,7 +34,7 @@ gestionado para su posterior eliminación de las fuentes públicas, y se ha elab
 con Threat Dragon.
 </p>
 
-<img src='1.png' alt='Theat Dragon'>
+![Theat Dragon](https://user-images.githubusercontent.com/72032027/214213550-83c751b8-da91-47ca-956a-72e374b1aac6.png)
 
 <p>
 El reporte realizado para este informe, a modo de visualizar las posibles brechas
@@ -48,7 +48,7 @@ Siendo representado en base a la información recopilada, donde el
 objetivo es corromper el servidor central del grupo.
 </p>
 
-<img src='2.png' alt='Tree Attack'>
+![Tree-Attack](https://user-images.githubusercontent.com/72032027/214213581-ccd72f54-8ceb-4409-bf1d-176492789bf3.png)
 
 <h3>Observaciones</h3>
 
