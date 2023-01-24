@@ -1,4 +1,20 @@
 # ÁRBOL DE ATAQUE
+Durante la evaluación de un información mediante OSINT, una de las tantas cosas que nos podemos plantear es la elaboración de un Vector de Acceso basados en diferentes tipos de Vector a Ataques. En un de mi certificaciones me sorprendio el hecho de tener que elaborar un `árbol de ataque` y como hacerlo.
+
+Mi primer adentramiento de la elaboración fue directamente a través de `Threat Dragon`. Se puede acceder a elaborar uno de estos árboles a través de las intrucciones indicadas en su Github: [threat-dragon](https://github.com/OWASP/threat-dragon).
+
+#### Threat Dragon Definition
+Es una herramienta de modelado que se utiliza para crear diagramas de modelos de amenazas como parte de un ciclo de vida de desarrollo seguro siguiendo los valores y principios del manifiesto de modelado de amenaza.
+
+Se puede utilizar para registrar posibles amenazas y decidir sobre sus posibles mitigaciones, así como para dar una indicación visual de los componentes y superficies del modelo de amenaza.
+
+#### Despliegue
+La forma más sencilla es simplemente desplegarlo a través de **Docker**:
+```
+docker pull threatdragon/owasp-threat-dragon:stable
+docker run -it --rm -p 8080:3000 -v $(pwd)/.env:/app/.env threatdragon/owasp-threat-dragon:stable
+```
+Asumiendo que estas usando el puerto `8080` accedemos a Threat Dragon a través de `http://localhost:8080/`.
 
 <h2>Resumen</h2> 
 
